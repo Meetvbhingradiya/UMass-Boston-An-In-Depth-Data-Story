@@ -5,6 +5,7 @@ d3.csv("data_scripts/combined_with_departments.csv").then(function(data) {
         fullName: d.FULL_NAME
     }));
     initializeChart(processedData);
+    
 });
 
 function initializeChart(data, radius = 20) {
